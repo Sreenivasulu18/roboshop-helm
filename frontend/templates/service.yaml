@@ -4,7 +4,7 @@ metadata:
   name: frontend
   namespace: roboshop
 spec:
-  type: {{ .Values.service.servicePort }}
+  type: {{ .Values.service.type }}
   selector:
     project: roboshop
     component: frontend
