@@ -1,0 +1,4 @@
+deployment:
+  imageVersion: 3
+service:
+  type: ClusterIP
