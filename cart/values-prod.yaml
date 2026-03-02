@@ -1,0 +1,7 @@
+configmap:
+  REDIS_HOST: "redis"
+  CATALOGUE_HOST: "catalogue"
+  CATALOGUE_PORT: "8080"
+deployment:
+  imageRepo: singalasreenivasulu/cart
+  imageVersion: v1 
