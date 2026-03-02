@@ -4,9 +4,9 @@ metadata:
   name: cart
   namespace: roboshop
 data:
-  REDIS_HOST: {{ .Values.configmap.REDIS_HOST }} 
-  CATALOGUE_HOST: {{ .Values.configmap.CATALOGUE_HOST }}
-  CATALOGUE_PORT: {{ .Values.configmap.CATALOGUE_PORT }}
+  REDIS_HOST: "{{ .Values.configmap.REDIS_HOST }}" 
+  CATALOGUE_HOST: "{{ .Values.configmap.CATALOGUE_HOST }}"
+  CATALOGUE_PORT: "{{ .Values.configmap.CATALOGUE_PORT }}"
 ---
 apiVersion: apps/v1 
 kind: Deployment
