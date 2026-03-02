@@ -1,3 +1,5 @@
 deployment:
   imageRepo: singalasreenivasulu/catalogue 
   imageVersion: v1
+service:
+  servicePort: 8080 # service port
