@@ -1,6 +1,6 @@
 deployment:
   imageRepo: singalasreenivasulu/frontend
-  imageversion: v1 
+  imageVersion: v1 
 service:
   type: LoadBalancer
   servicePort: 80
